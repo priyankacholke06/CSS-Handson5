@@ -1,0 +1,380 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url(./shara\ desert.jpg);
+    background-repeat: repeat;
+}
+.navbar
+{
+    margin-top: 20px;
+    margin-left: 60%;
+}
+.nav1
+{
+    color: white;
+    display: inline-block;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.logo
+{
+    width: 50px;
+    margin-left: 100px;
+}
+.para
+{
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 250px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+.para1
+{
+    color: white;
+    padding-left: 150px;
+    margin: 10px;
+    cursor: text;
+}
+button
+{
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 10px;
+    height: 40px;
+    width: 180px;
+    font-weight: bold;
+    margin-left: 150px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.flex-container
+{
+    width: 600px;
+    gap: 20px;
+    position: absolute;
+    top: 100px;
+    left: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex-item
+{
+    height: 250px;
+    width: 250px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    cursor: pointer;
+}
+.item1
+{
+    background-image: url(img1.png);
+    background-size: 250px;
+}
+.item2
+{
+    background-image: url(img2.png);
+    background-size: 250px;
+}
+.item3
+{
+    background-image: url(img3.png);
+    background-size: 250px;
+}
+.item4
+{
+    background-image: url(img4.png);
+    background-size: 250px;
+}
+.desert
+{
+    color: white;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.para2
+{
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 10px;
+}
+.item1:hover
+{
+    transform: translateY(-10px);
+    transition-duration: 1s;
+    box-shadow: 0px 0px 5px black;
+}
+.item2:hover
+{
+    transform: translateY(-10px);
+    transition-duration: 1s;
+    box-shadow: 0px 0px 5px black;
+}
+.item3:hover
+{
+    transform: translateY(-10px);
+    transition-duration: 1s;
+    box-shadow: 0px 0px 5px black;
+}
+.item4:hover
+{
+    transform: translateY(-10px);
+    transition-duration: 1s;
+    box-shadow: 0px 0px 5px black;
+}
+@media only screen and (min-width:850px) and (max-width:900px) {
+    .navbar{
+        margin-top: 10px;
+        margin-left: 30%;
+    }
+    .nav1
+    {
+        color: white;
+        display: inline-block;
+        margin-left: 50px;
+        cursor: pointer;
+    }
+    .para
+{
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.para1
+{
+    color: white;
+    padding-left: 50px;
+    margin: 10px;
+    cursor: text;
+}
+button
+{
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 10px;
+    height: 40px;
+    width: 180px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.flex-container
+{
+    /* width: 600px; */
+    gap: 20px;
+    position: relative;
+    top: 20px;
+    left: 200px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap;
+    justify-content: space-around; */
+}
+.flex-item
+{
+    height: 300px;
+    width: 500px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    cursor: pointer;
+}
+.item1
+{
+    background-image: url(img1.png);
+    background-size: 500px;
+}
+.item2
+{
+    background-image: url(img2.png);
+    background-size: 500px;
+}
+.item3
+{
+    background-image: url(img3.png);
+    background-size: 500px;
+}
+.item4
+{
+    background-image: url(img4.png);
+    background-size: 500px;
+}
+.desert
+{
+    color: white;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.para2
+{
+    display: inline;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    font-size: 10px;
+}
+.para3
+{
+    margin-left: 20px;
+}
+.item1:hover
+{
+    transform: translateY(-10px);
+    transition-duration: 1s;
+    box-shadow: 0px 0px 5px black;
+}
+.item2:hover
+{
+    transform: translateY(-10px);
+    transition-duration: 1s;
+    box-shadow: 0px 0px 5px black;
+}
+.item3:hover
+{
+    transform: translateY(-10px);
+    transition-duration: 1s;
+    box-shadow: 0px 0px 5px black;
+}
+.item4:hover
+{
+    transform: translateY(-10px);
+    transition-duration: 1s;
+    box-shadow: 0px 0px 5px black;
+}
+}
+@media only screen and (min-width:360px) and (max-width:849px) {
+    .navbar{
+        margin-top: 10px;
+        margin-left: 20%;
+    }
+    .nav1
+    {
+        color: white;
+        /* display: inline-block; */
+        margin-left: 50px;
+        cursor: pointer;
+    }
+    .para{
+        color: white;
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 50px;
+    cursor: pointer;
+    }
+    .para1
+{
+    color: white;
+    padding-left: 50px;
+    margin: 10px;
+    cursor: text;
+}
+button
+{
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 10px;
+    height: 40px;
+    width: 180px;
+    font-weight: bold;
+    margin-left: 150px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.flex-container
+{
+    /* width: 600px; */
+    gap: 20px;
+    position: relative;
+    top: 20px;
+    left: 120px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap;
+    justify-content: space-around; */
+}
+.flex-item
+{
+    height: 250px;
+    width: 250px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    cursor: pointer;
+}
+.item1
+{
+    background-image: url(img1.png);
+    background-size: 250px;
+}
+.item2
+{
+    background-image: url(img2.png);
+    background-size: 250px;
+}
+.item3
+{
+    background-image: url(img3.png);
+    background-size: 250px;
+}
+.item4
+{
+    background-image: url(img4.png);
+    background-size: 250px;
+}
+.desert
+{
+    color: white;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.para2
+{
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 10px;
+}
+.item1:hover
+{
+    transform: translateY(-10px);
+    transition-duration: 1s;
+    box-shadow: 0px 0px 5px black;
+}
+.item2:hover
+{
+    transform: translateY(-10px);
+    transition-duration: 1s;
+    box-shadow: 0px 0px 5px black;
+}
+.item3:hover
+{
+    transform: translateY(-10px);
+    transition-duration: 1s;
+    box-shadow: 0px 0px 5px black;
+}
+.item4:hover
+{
+    transform: translateY(-10px);
+    transition-duration: 1s;
+    box-shadow: 0px 0px 5px black;
+}
+}
